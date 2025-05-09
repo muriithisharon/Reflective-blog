@@ -24,6 +24,8 @@ ul{
     height: 55vh;
     padding-top: 3%;
     border-radius: 20px;
+    background-size: cover;
+    background-position: center;
     
 }
 #text{
@@ -59,4 +61,23 @@ ul{
 blockquote{
     margin-left: 12rem;
     font-size: 20px;
+}
+.book-img img{
+   width: 100vw;
+   height: 90vh;
+}
+.upcoming-reads{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    flex-wrap: wrap;
+}
+.upcoming-reads img{
+    width: 30vw;
+    height: 60vh;
+    box-shadow: 8px 8px ;
+}
+.reads{
+    text-align: center;
+    background:rgba(54, 146, 233, 0.692) ;
 }
